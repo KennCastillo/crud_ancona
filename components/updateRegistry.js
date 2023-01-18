@@ -62,7 +62,7 @@ export default function UpdateRegistry({formId, formData, setFormData}) {
             <TextField name="engine" onChange={setFormData} defaultValue={engine}  label="Outlined" variant="outlined" placeholder='Motor' />
             <TextField name="provider" onChange={setFormData} defaultValue={provider}  label="Outlined" variant="outlined" placeholder='Proveedor' />
             <FormControl>
-                <FormLabel id="demo-row-radio-buttons-group-label">Gender</FormLabel>
+                <FormLabel id="demo-row-radio-buttons-group-label">Estatus</FormLabel>
                 <RadioGroup
                     row
                     aria-labelledby="demo-row-radio-buttons-group-label"

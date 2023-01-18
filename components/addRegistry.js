@@ -93,7 +93,7 @@ export default function AddRegistry({formData, setFormData}) {
             <TextField name="engine" onChange={setFormData}  label="Motor" variant="outlined" placeholder='Motor' />
             <TextField name="provider" onChange={setFormData}  label="Proveedor" variant="outlined" placeholder='Proveedor' />
             <FormControl>
-                <FormLabel id="demo-row-radio-buttons-group-label">Gender</FormLabel>
+                <FormLabel id="demo-row-radio-buttons-group-label">Estatus</FormLabel>
                 <RadioGroup
                     row
                     aria-labelledby="demo-row-radio-buttons-group-label"
