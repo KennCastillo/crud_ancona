@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* > * {
+  font-family: 'Poppins', sans-serif;;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+
+.activeField {
+  background-color: "#00bd7d" !important;
+  border-radius: "10px" !important;
+   color: "#005639" !important;
+    padding-right: "4px" !important;
+}
+
+.backTitleColor{
+  background-color: rgb(156 156 247);
+  color: white;
+  height: 30px;
+}

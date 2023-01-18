@@ -1,0 +1,32 @@
+[
+    {
+        "sku":"001",
+        "name":"radiador",
+        "desc":"Radiador de KIA RIO seda modelo 2020-2021",
+        "shortDesc":"Radiador RIO",
+        "image":"c://documents/img/parts",
+        "category":"auto",
+        "price":"1,500",
+        "brand":"JParts",
+        "partNumber":"456815487",
+        "family":"refrigerantes",
+        "engine":"NA",
+        "provider":"Auto Partes Surcoreanas",
+        "status":"Activo"
+    },
+    {
+        "sku":"002",
+        "name":"alernador",
+        "desc":"Alternador de KIA RIO seda modelo 2020-2021",
+        "shortDesc":"Alternador RIO",
+        "image":"c://documents/img/parts",
+        "category":"auto",
+        "price":"2,500",
+        "brand":"JParts",
+        "partNumber":"456815444",
+        "family":"Electrico",
+        "engine":"NA",
+        "provider":"Auto Partes Surcoreanas",
+        "status":"Activo"
+    }
+]
