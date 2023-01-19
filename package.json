@@ -25,7 +25,8 @@
     "react-dom": "18.2.0",
     "react-query": "^3.39.2",
     "react-redux": "^8.0.5",
-    "typescript": "4.9.4"
+    "typescript": "4.9.4",
+    "vercel": "^28.12.8"
   },
   "devDependencies": {
     "mongoose": "^6.8.4",
