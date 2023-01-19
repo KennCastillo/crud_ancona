@@ -25,7 +25,7 @@ export async function getRecord(req, res){
             const record = await Records.findById(recordId)
             res.status(200).json(record)
         }
-        res.status(404).json({error:"Registro no seleccionado"})
+        //res.status(404).json({error:"Registro no seleccionado"})
         
     } catch (error) {
         res.status(404).json({error:"Error al obtener el registro"})    
